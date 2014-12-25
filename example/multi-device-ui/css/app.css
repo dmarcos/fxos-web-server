@@ -1,0 +1,106 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  background: #fff;
+}
+
+h1, h2 {
+  color: rgba(179, 4, 6, 0.95);
+  font-size: 1.8rem;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: inherit;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li > a {
+  background-color: #eee;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin: 0.1rem 0;
+  padding: 1rem 1.5rem 1rem 1rem;
+}
+
+li > a:after {
+  content: '>';
+  font-size: 2rem;
+  display: inline-block;
+  float: right;
+  margin: -0.5rem -1rem 0 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+}
+
+header > a {
+  background-color: #eee;
+  color: #000;
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+}
+
+iframe {
+  border: none;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 3rem);
+}
+
+#remote {
+  display: none;
+}
+
+#start {
+  display: block;
+  margin: auto;
+}
+
+.spaces {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.spaces li{
+  background-color: rgba(179, 4, 6, 0.95);
+  margin-bottom: 2px;
+  height: 50px;
+  color: white;
+  line-height: 50px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+
+.spaces li.selected {
+  height: 100px;
+}
